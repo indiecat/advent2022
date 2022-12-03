@@ -11,7 +11,6 @@
              (str/split-lines)
              (map #(map xtable %))))
 
-input
 
 (defn p1-common-item-priority [rucksack]
   (let [size (count rucksack)
